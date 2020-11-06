@@ -14,8 +14,16 @@ const routes = [
         component: () => import('@/views/home/home.vue')
     },
     {
+        path:'/category',
+        component: () => import('@/views/category/category')
+    },
+    {
         path:'/cart',
         component: () => import('@/views/cart/cart.vue')
+    },
+    {
+        path:'/profile',
+        component: () => import('@/views/profile/profile')
     }
 ]
 // 2、创建路由对象
